@@ -1,4 +1,4 @@
-FROM java8
+FROM java:8
 USER root
 VOLUME /tmp
 ARG hello-jenkins
