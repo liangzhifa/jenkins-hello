@@ -1,4 +1,5 @@
 FROM java8
+USER root
 VOLUME /tmp
 ARG hello-jenkins
 COPY target/hello-jenkins.jar app.jar
